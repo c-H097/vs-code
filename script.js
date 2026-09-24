@@ -3,15 +3,15 @@
 // Put your files in the workspace (for example a folder called `Assets`) and set paths relative to this file (index.html).
 
 const ASSETS = {
-  // Background image path (optional). Example: '../Assets/background.jpg'
+  // Background image path (optional). Example: 'images/background.jpg'
   // Paste your background file path between the quotes below:
-  background: '../images/backgroundGoat.jpg', // <-- paste background path here
+  background: 'images/backgroundGoat.jpg', // <-- paste background path here
 
   // Stickers: list two sticker image paths you will add to the workspace.
   // Each entry should be a string with the relative path from index.html.
   stickers: [
-    '../images/kiki_1.png', // <-- paste first sticker path here (e.g. '../Assets/hamster.png')
-    '../images/kiki_2.png'  // <-- paste second sticker path here
+    'images/kiki_1.png', // <-- paste first sticker path here (e.g. 'images/hamster.png')
+    'images/kiki_2.png'  // <-- paste second sticker path here
   ]
 };
 
