@@ -1,0 +1,9 @@
+:root{--bg:#222}
+html,body,#container{height:100%;margin:0}
+body{font-family:Segoe UI, Roboto, Arial, sans-serif;background:var(--bg) center/cover no-repeat fixed;display:flex;align-items:center;justify-content:center}
+#container{position:relative;width:100vw;height:100vh;overflow:hidden}
+#overlay{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;z-index:30;pointer-events:none}
+#message{color:white;font-size:10vw;text-align:center;text-shadow:0 6px 18px rgba(0,0,0,0.6);margin:0}
+canvas#balloons{position:absolute;inset:0;z-index:20;pointer-events:none}
+
+@media (max-width:600px){#message{font-size:16vw}}
